@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:focusable="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/wizards_unite" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/question_one"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/griffyndor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="24dp"
+            android:text="@string/griffyndor"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+
+        <CheckBox
+            android:id="@+id/ravenclaw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="24dp"
+            android:text="@string/ravenclaw"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+
+        <CheckBox
+            android:id="@+id/slytherin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="24dp"
+            android:text="@string/slytherin"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+
+        <CheckBox
+            android:id="@+id/hufflepuff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="24dp"
+            android:text="@string/hufflepuff"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/question_two"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/answer2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="24dp"
+            android:hint="@string/hint_answer" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/question_three"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="24dp"
+                android:text="@string/lead"
+                android:textColor="@android:color/black" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="24dp"
+                android:text="@string/copper"
+                android:textColor="@android:color/black" />
+
+            <RadioButton
+                android:id="@+id/unicorn_hair"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="24dp"
+                android:text="@string/unicorn_hair"
+                android:textColor="@android:color/black" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="24dp"
+                android:text="@string/diamonds"
+                android:textColor="@android:color/black" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/question_four"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/answer4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="24dp"
+            android:hint="@string/hint_answer" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/question_five"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/worst_fears"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="24dp"
+                android:text="@string/worst_fears"
+                android:textColor="@android:color/black" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="24dp"
+                android:text="@string/sharks"
+                android:textColor="@android:color/black" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="24dp"
+                android:text="@string/snakes"
+                android:textColor="@android:color/black" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/submit_answers"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"/>
+
+        <Button
+            android:id="@+id/answer_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="85dp"
+            android:layout_marginStart="85dp"
+            android:background="@drawable/owl_post"
+            android:onClick="submitAnswers"/>
+
+        <Button
+            android:id="@+id/reset_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/play_again"
+            android:background = "@android:color/holo_blue_light"
+            android:layout_marginLeft="150dp"
+            android:layout_marginStart="150dp"
+            android:onClick="reset"/>
+
+    </LinearLayout>
+</ScrollView>

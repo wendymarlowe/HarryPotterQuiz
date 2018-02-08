@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">HarryPotterQuiz</string>
+    <string name="question_one">1) Who are the founders of Hogwarts?</string>
+    <string name="griffyndor">Godrick Griffyndor</string>
+    <string name="ravenclaw">Rowena Ravenclaw</string>
+    <string name="slytherin">Salazar Slytherin</string>
+    <string name="hufflepuff">Helga Hufflepuff</string>
+    <string name="question_two">2) What is Professor McGonogall\'s first name?</string>
+    <string name="hint_answer">Answer</string>
+    <string name="question_three">3) What is the core of Ron\'s wand?</string>
+    <string name="lead">Lead</string>
+    <string name="copper">Copper</string>
+    <string name="unicorn_hair">Unicorn Hair</string>
+    <string name="diamonds">Diamonds</string>
+    <string name="question_four">4) What is the spell to summon a Patronus?</string>
+    <string name="question_five">5) What does a boggart look like?</string>
+    <string name="worst_fears">Your worst fears</string>
+    <string name="sharks">Sharks</string>
+    <string name="snakes">Snakes</string>
+    <string name="submit_answers">Click the Owl to submit your answers.</string>
+    <string name="play_again">Play Again</string>
+</resources>
